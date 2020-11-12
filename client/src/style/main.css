@@ -1,0 +1,31 @@
+.sContainer {
+    min-height: 100vh;
+}
+
+.bikeCard {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 20px 0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bikeInfoSize {
+    margin: 8px;
+}
+
+.mainContent {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.bikeInput {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background-color: #d0d5d9;
+    margin: 20px 0;
+}
