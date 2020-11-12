@@ -29,11 +29,15 @@ export const App = ({bikes}) => {
     return (
         <Container className="p-md-4 p-sm-1 sContainer mw-100" style={{backgroundColor: "#eee"}}>
             <Row className='mainContent p-md-1 p-sm-5'>
-                <Col sm={8} className='m-0 mb-5 pt-3'>
+                <Col sm={8} className='m-0 mb-4 pt-3'>
                     <h1>Awesome Bike Rental</h1>
                 </Col>
                 <Col sm={8} className='m-0'>
-                    <CPreloader/>
+                    <Row className='m-3 justify-content-center'>
+                        <Col sm={2}>
+                            <CPreloader/>
+                        </Col>
+                    </Row>
                     <CBikeForm/>
                     <RentedBikes bikes={rentedBikes}/>
                     <AvailableBikes bikes={availableBikes}/>

@@ -20,7 +20,7 @@ const BikeForm = ({CreateBike}) => {
         <div className='mb-5'>
             <h4>&#x1f911; Create new rent</h4>
             <Col className='bikeInput p-2' sm={12}>
-                <Form className='m-0'  onSubmit={handleSubmit(onSubmit)}>
+                <Form className='m-0' onSubmit={handleSubmit(onSubmit)}>
                     <Form.Group as={Row}>
                         <Col lg={4}>
                             <label htmlFor='name'>Bike name</label>
